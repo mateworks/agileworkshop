@@ -1,0 +1,647 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+    
+  测试驱动开发 - 敏捷工坊
+  
+  </title>
+ <meta name="description" content="">
+ <link href="atom.xml" rel="alternate" title="敏捷工坊" type="application/atom+xml">
+    <link rel="stylesheet" href="asset/css/foundation.min.css" />
+    <link rel="stylesheet" href="asset/css/docs.css" />
+
+    <script src="asset/js/vendor/modernizr.js"></script>
+    <script src="asset/js/vendor/jquery.js"></script>
+    <script src="asset/highlightjs/highlight.pack.js"></script>
+    <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+  </head>
+  <body class="antialiased hide-extras">
+    
+    <div class="marketing off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+
+
+<nav class="top-bar docs-bar hide-for-small" data-topbar>
+
+<div id="header">
+    <h1><a href="index.html">敏捷工坊</a></h1>
+</div>
+
+</nav>
+        <nav class="tab-bar show-for-small">
+  <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
+    <span> &nbsp; 敏捷工坊</span>
+  </a>
+</nav>
+
+<aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+      <li><a href="index.html">Home</a></li>
+      
+        <li class="divider"></li>
+        <li><label>敏捷基础</label></li>
+
+          
+            <li><a title="交付一个故事的过程" href="16616164801721.html">交付一个故事的过程</a></li>
+          
+            <li><a title="什么是敏捷" href="16616163493387.html">什么是敏捷</a></li>
+          
+            <li><a title="理解并使用故事点" href="16616162861040.html">理解并使用故事点</a></li>
+          
+            <li><a title="用户故事估算-计划扑克" href="16616162474380.html">用户故事估算-计划扑克</a></li>
+          
+            <li><a title="Scrum的3种角色" href="16616161137694.html">Scrum的3种角色</a></li>
+          
+            <li><a title="迭代评审会" href="16616160789048.html">迭代评审会</a></li>
+          
+            <li><a title="迭代回顾会" href="16616160532090.html">迭代回顾会</a></li>
+          
+            <li><a title="Sprint计划会" href="16616160142467.html">Sprint计划会</a></li>
+          
+            <li><a title="每日站会" href="16616159828860.html">每日站会</a></li>
+          
+            <li><a title="产品代表列表 Product Backlog" href="16616159450211.html">产品代表列表 Product Backlog</a></li>
+          
+            <li><a title="看板系统" href="16616158271007.html">看板系统</a></li>
+          
+            <li><a title="认识Scrum" href="16616156981885.html">认识Scrum</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>产品管理</label></li>
+
+          
+            <li><a title="客户旅程地图" href="16616166532077.html">客户旅程地图</a></li>
+          
+            <li><a title="用户故事地图" href="16616166316812.html">用户故事地图</a></li>
+          
+            <li><a title="产品路线图" href="16616166051052.html">产品路线图</a></li>
+          
+            <li><a title="用户画像" href="16616165691467.html">用户画像</a></li>
+          
+            <li><a title="最小可行产品（MVP）" href="16616165456088.html">最小可行产品（MVP）</a></li>
+          
+            <li><a title="商业画布" href="16616165219040.html">商业画布</a></li>
+          
+            <li><a title="优先级排序" href="16616163144207.html">优先级排序</a></li>
+          
+            <li><a title="用户故事拆分" href="16616162041032.html">用户故事拆分</a></li>
+          
+            <li><a title="故事验收标准" href="16616161769570.html">故事验收标准</a></li>
+          
+            <li><a title="用户故事" href="16616161416747.html">用户故事</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>DevOps</label></li>
+
+          
+            <li><a title="认识极限编程" href="16616167353639.html">认识极限编程</a></li>
+          
+            <li><a title="测试驱动开发" href="16616167090862.html">测试驱动开发</a></li>
+          
+            <li><a title="结对编程" href="16616166850677.html">结对编程</a></li>
+          
+            <li><a title="价值流图" href="16616164477290.html">价值流图</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>研发效能</label></li>
+
+          
+            <li><a title="效能度量" href="16616164069115.html">效能度量</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>工具软件</label></li>
+
+          
+
+      
+        <li class="divider"></li>
+        <li><label>组织级敏捷</label></li>
+
+          
+            <li><a title="什么是敏捷组织" href="16662691712060.html">什么是敏捷组织</a></li>
+          
+
+      
+      </ul>
+    </aside>
+
+<a class="exit-off-canvas" href="#"></a>
+
+        <section id="main-content" role="main" class="scroll-container">
+
+          <div class="row">
+            <div class="large-3 medium-3 columns">
+              <div class="hide-for-small">
+                <div class="sidebar">
+                <nav>
+                  <ul id="side-nav" class="side-nav">
+
+                    
+                      <li class="side-title"><span>敏捷基础</span></li>
+                        
+                          <li><a title="交付一个故事的过程" href="16616164801721.html">交付一个故事的过程</a></li>
+                        
+                          <li><a title="什么是敏捷" href="16616163493387.html">什么是敏捷</a></li>
+                        
+                          <li><a title="理解并使用故事点" href="16616162861040.html">理解并使用故事点</a></li>
+                        
+                          <li><a title="用户故事估算-计划扑克" href="16616162474380.html">用户故事估算-计划扑克</a></li>
+                        
+                          <li><a title="Scrum的3种角色" href="16616161137694.html">Scrum的3种角色</a></li>
+                        
+                          <li><a title="迭代评审会" href="16616160789048.html">迭代评审会</a></li>
+                        
+                          <li><a title="迭代回顾会" href="16616160532090.html">迭代回顾会</a></li>
+                        
+                          <li><a title="Sprint计划会" href="16616160142467.html">Sprint计划会</a></li>
+                        
+                          <li><a title="每日站会" href="16616159828860.html">每日站会</a></li>
+                        
+                          <li><a title="产品代表列表 Product Backlog" href="16616159450211.html">产品代表列表 Product Backlog</a></li>
+                        
+                          <li><a title="看板系统" href="16616158271007.html">看板系统</a></li>
+                        
+                          <li><a title="认识Scrum" href="16616156981885.html">认识Scrum</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>产品管理</span></li>
+                        
+                          <li><a title="客户旅程地图" href="16616166532077.html">客户旅程地图</a></li>
+                        
+                          <li><a title="用户故事地图" href="16616166316812.html">用户故事地图</a></li>
+                        
+                          <li><a title="产品路线图" href="16616166051052.html">产品路线图</a></li>
+                        
+                          <li><a title="用户画像" href="16616165691467.html">用户画像</a></li>
+                        
+                          <li><a title="最小可行产品（MVP）" href="16616165456088.html">最小可行产品（MVP）</a></li>
+                        
+                          <li><a title="商业画布" href="16616165219040.html">商业画布</a></li>
+                        
+                          <li><a title="优先级排序" href="16616163144207.html">优先级排序</a></li>
+                        
+                          <li><a title="用户故事拆分" href="16616162041032.html">用户故事拆分</a></li>
+                        
+                          <li><a title="故事验收标准" href="16616161769570.html">故事验收标准</a></li>
+                        
+                          <li><a title="用户故事" href="16616161416747.html">用户故事</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>DevOps</span></li>
+                        
+                          <li><a title="认识极限编程" href="16616167353639.html">认识极限编程</a></li>
+                        
+                          <li><a title="测试驱动开发" href="16616167090862.html">测试驱动开发</a></li>
+                        
+                          <li><a title="结对编程" href="16616166850677.html">结对编程</a></li>
+                        
+                          <li><a title="价值流图" href="16616164477290.html">价值流图</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>研发效能</span></li>
+                        
+                          <li><a title="效能度量" href="16616164069115.html">效能度量</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>工具软件</span></li>
+                        
+
+                    
+                      <li class="side-title"><span>组织级敏捷</span></li>
+                        
+                          <li><a title="什么是敏捷组织" href="16662691712060.html">什么是敏捷组织</a></li>
+                        
+
+                    
+                  </ul>
+                </nav>
+                </div>
+              </div>
+            </div>
+            <div class="large-9 medium-9 columns">
+
+ <div class="markdown-body">
+<h1>测试驱动开发</h1>
+
+<h2><a id="%E4%BB%80%E4%B9%88%E6%98%AFtdd" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>什么是TDD</h2>
+<p>测试驱动开发是为了践行极限编程中倡导的 ”测试先行“原则而提供实践方法，并且是目前为止用来支撑达到这一目的的最佳实践（Bob大叔的观点）。</p>
+<p>其理念类似于工匠砌墙的时候会先拉上一根水平线，砌每一块砖时，都与这跟水平线进行比较，确保每一块砖都保持水平。这已经是常识。而在软件开发过程中，我们不仅没有采用类似的工作方法，有时候甚至会以“工期太紧张”为由忽略测试工作，从而导致了一个恶性循环，越是没有空编写测试，代码的质量越差，花在找 Bug、解决 Bug 的时间也越来越多，产能越来越低，由于产能降低了，时间更紧张、压力更大了，难道，我们不能够将后面浪费的时间花在单元测试上，使得我们的程序一开始就更健壮，更加易于修改吗？</p>
+<p>TDD就可以看做是一个为了解决这个问题的实践流程，基于这个流程你可以写出具有极高测试覆盖率（通常接近90%）的代码，同时还可以减少测试中发现比较难以定位的BUG的可能性。</p>
+<ol>
+<li>当所有的测试都通过的时候，你再也不会担心所写的代码今后会“暗箭伤人”，那种感觉是相当棒的。</li>
+<li>当你的客户看到所有的测试都通过的时候，你会对程序充满前所未有的信心。</li>
+<li>当你需要进行重构时，测试代码会给你带来更大的勇气，因为你要测试是否重构成功只需要一个按钮。</li>
+</ol>
+<h2><a id="tdd%E7%9A%84%E4%B8%80%E8%88%AC%E6%B5%81%E7%A8%8B" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>TDD的一般流程</h2>
+<p><img src="http://s.pyrlong.com/ob/93efb03a8482b556601c5c99f024dcee.jpg" alt="" /><br />
+<strong>TDD的一般过程是：</strong></p>
+<ol>
+<li>写一个测试</li>
+<li>运行这个测试，看到预期的失败</li>
+<li>编写尽可能少的业务代码，让测试通过</li>
+<li>重构代码</li>
+<li>不断重复以上过程</li>
+</ol>
+<p>TDD也是一个知易行难的实践方法，下面列出了实践TDD的基本原则：</p>
+<ol>
+<li>
+<p>除⾮为了使一个失败的单元测试通过，否则不允许编写任何业务代码</p>
+</li>
+<li>
+<p>在一个单元测试中只允许编写刚好能够导致失败的内容（编译错误也算失败）</p>
+</li>
+<li>
+<p>只允许编写刚好能够使一个失败的单元测试通过的产品代码</p>
+</li>
+</ol>
+<h2><a id="%E5%A6%82%E4%BD%95%E5%BC%80%E5%A7%8B" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>如何开始</h2>
+<p>通常来说项目内使用单元测试或者TDD的最主要难点是就是<strong>如何写测试</strong>，测试框架和语法都不是问题，我们可以通过几个例子十几分钟就可以学会，但是如何把脑子里自己对要做的事情的一些模糊的想法转化成可用的测试，甚至是需要在功能实现之前就考虑清楚怎么去验证他们，多数人这时候是不知道如何下手的。</p>
+<p>有人告诉你应该使用TDD，但是该如何给一个还没有实现的东西写测试呢？在甚至都还没想明白这个函数要实现什么功能，或者到底是要用一个函数还是两个函数呢，所有我们听说的只是TDD需要换一种软件开发的思维方式，但是应该怎么做呢?</p>
+<p>现在我来告诉你如何通过简单五步掌握TDD的一般过程</p>
+<h3><a id="%E5%A6%82%E4%BD%95%E5%B0%86%E8%84%91%E4%B8%AD%E7%9A%84%E6%A8%A1%E7%B3%8A%E6%83%B3%E6%B3%95%E8%BD%AC%E5%8C%96%E4%B8%BA%E6%B5%8B%E8%AF%95" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>如何将脑中的模糊想法转化为测试</h3>
+<p>让我引导您了解一个可以用来完成此任务的方法，一种将任何你想实现的想法转化成有形的、可测试的用例的方法。我已经使用了很久的测试驱动开发方法，这个方法就是基于我在做TDD的过程中所经历的那种思考的过程。</p>
+<p>这个方法与TDD采用的技术细节无关，它更关注经验丰富的TDD开发人员在编码过程中所经历的思考过程，了解这个思考过程可以让TDD的实践变得更容易。</p>
+<p>切记：最主要的是要调整你的思维方式，这个过程开始会需要你付出一些有意识的努力，当你付出足够努力的时候，它就会变成你的习惯，编写测试代码将和你写If-else一样平常而必须，你再也不需要为此做额外的努力。</p>
+<p><strong>接下来我们以一个例子开始：计算一个密码的强度</strong></p>
+<p><em><strong>这个时候我和你一样，只是想到了这个需求，完全还没有头绪，之前也没有写过任何关于这个功能的代码。我现在也处于完全茫然的状态</strong></em></p>
+<p>在正式开始之前，再强调一个重要的事儿：我们的目的不是追求完美，测试驱动的开发是一个反复的过程，这意味着您只需执行少量重复步骤（红-绿-重构）,这个过程我们不用过多在意细节，因为本来软件开发就是一个经常变化的过程，TDD让我们做任何改动都更容易，所以我们不用一次追求100%准确，只需要不断重复TDD的过程，我们的软件会自然而然变成它该有的样子。</p>
+<p>下面让我们一起开始吧</p>
+<h4><a id="%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%9A%E7%A1%AE%E5%AE%9A%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>第一步：确定输入输出</h4>
+<p>我们从高层次开始这个过程。我们现在还不在乎如何实现。我们只需要关心我们的原始需求：计算密码强度，为了实现这个需求，我们需要输入一些东西给程序，然后根据输入得到一些输出。通常为了实现这个过程我们会思考着应该定义一个函数，并且会思考一下该函数需要输入哪些数据以及返回什么样的结果。请注意，以上只是我们的思考过程，到目前为止我们还没有写任何代码。</p>
+<p>针对这个需求我们需要如何定义呢？</p>
+<ol>
+<li>
+<p>**首先我们需要一个输入：**输入必须是一个密码</p>
+</li>
+<li>
+<p><strong>输出也很简单</strong>：</p>
+<p>标识密码强度的一个值，为了简单起见，假设我们的密码强度只是一个标识密码是否是高强度密码的布尔类型。</p>
+</li>
+</ol>
+<h4><a id="%E7%AC%AC%E4%BA%8C%E6%AD%A5%EF%BC%9A%E7%A1%AE%E5%AE%9A%E5%87%BD%E6%95%B0%E7%AD%BE%E5%90%8D" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>第二步：确定函数签名</h4>
+<p>针对我们这个例子，很简单-只需输入密码即可。我们可以完全基于该值完成整个计算。那返回值呢？很简单，因为这是一个计算，所以我们可以直接返回结果。现在我们可以决定在代码中调用该函数的方式：</p>
+<pre><code class="language-javascript">var strong = isStrongPassword('password string goes here');
+</code></pre>
+<h4><a id="%E7%AC%AC%E4%B8%89%E6%AD%A5%EF%BC%9A%E9%80%89%E6%8B%A9%E8%A6%81%E5%AE%9E%E7%8E%B0%E5%8A%9F%E8%83%BD%E7%9A%84%E4%B8%80%E4%B8%AA%E5%BE%AE%E5%B0%8F%E7%9A%84%E6%96%B9%E9%9D%A2" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>第三步：选择要实现功能的一个微小的方面</h4>
+<p>现在，我们知道了目标，涉及的数据和功能签名。在非TDD工作流程中，可能现在就开始编写该功能的代码了。您可能已经对它的工作方式有了一些想法并且有极大的冲动去编码实现它。这是大多数人在使用TDD时遇到麻烦的地方。关于如何编写函数的所有这些想法会过早引起了您的注意，但是直到开始编写代码之前，我们都不确定如何布置代码。</p>
+<p>这时候我们需要考虑的是：我们可以接近目标的最简单的行为是什么？</p>
+<p>实际工作中，我们经常会遇到我们尝试解决非常大，例如本例中如果我们考虑密码强度，就会有不同规则的想法，例如特殊字符，数字，密码长度等。</p>
+<ol>
+<li>
+<p>那么，使该功能更接近于验证密码的最终目标，我们能采取的最简单的步骤是什么？</p>
+</li>
+<li>
+<p>如果在没有TDD的情况下构建此函数，那么第一行（或两行）代码将是什么？</p>
+</li>
+<li>
+<p>我们可以添加使功能更接近工作的最少代码量是多少？</p>
+</li>
+</ol>
+<p>在这个例子中密码强度最简单的规则可能是空密码。这真的很容易-密码为空时输出应始终为false。所以我们从这里开始。</p>
+<h4><a id="%E7%AC%AC%E5%9B%9B%E6%AD%A5%E5%86%99%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>第四步 写一个测试</h4>
+<p>注意前面的所有步骤实际上与没有TDD的情况下的区别，主要区别在于，我们将重点放在函数的调用方式以及结果上，而不是着眼于实现功能。也就是说–我们正在考虑该功能在某些情况下的行为。就像这样，我们已经可用开始编写测试了：</p>
+<p>我们决定该功能将密码作为其唯一参数。我们还决定返回一个布尔值以指示密码是否强壮。</p>
+<p>我们还选择了一个空密码，结果应该始终为false –表示一个空密码很弱。</p>
+<p>现在我们创建第一个测试：</p>
+<pre><code class="language-javascript">describe('isPasswordStrong', function() {  
+		it('should give negative result for empty string', function() {
+					var password = '';    
+					var result = isPasswordStrong(password);    
+					expect(result).to.be.false; 
+		});
+});
+</code></pre>
+<p>注意，我们很容易地编写了此代码，而无需知道函数中确切的代码行是什么。给定一个空字符串作为参数，结果应为false。一个简单的行为，很容易转化为测试。</p>
+<h4><a id="%E7%AC%AC%E4%BA%94%E6%AD%A5%E5%AE%9E%E7%8E%B0%E4%BB%A3%E7%A0%81" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>第五步 实现代码</h4>
+<p>我们只会添加使测试通过的最少量的代码。</p>
+<pre><code class="language-javascript">function isPasswordStrong(password) { 
+		if(!password) {    
+				return false;  
+	    }
+}
+</code></pre>
+<p>如果我们要继续开发密码强度功能，我们要做的就是重复一次。我们将回到第3步，然后选择下一步。步骤4，添加测试。步骤5，实施。重复。</p>
+<p>如果您坚持继续像这样的小步前进，TDD过程就会变得容易得多。可能需要进行针对少量代码的多次测试，但这并不是一件坏事。TDD通过这种方式帮助您减少您可能编写的无用代码量，因为您添加的每一行代码均已通过测试验证。</p>
+<h3><a id="%E5%AE%9E%E8%B7%B5%E6%80%BB%E7%BB%93" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>实践总结</h3>
+<p>从示例中可以看到，我们可以将相同的五个步骤应用于各种功能。如果您需要练习，可以从我们在此处采用的例子开始，然后查看是否可以采用5个步骤使这些功能完全发挥作用。</p>
+<p>一旦掌握了基本知识，测试驱动开发就不会困难。挑战在于，这需要您转变思路：如果没有TDD，您将直接考虑如何实施某些事情。但是在TDD中您会考虑系统的行为是如何表现的 ，应该如何去验证。</p>
+<ol>
+<li>
+<p>函数的输入是什么，调用函数想要的输出（行为）是什么？</p>
+</li>
+<li>
+<p>确定如何从代码中调用函数</p>
+</li>
+<li>
+<p>为您可以想到的某些输入选择最小的行为</p>
+</li>
+<li>
+<p>编写测试，使用这些输入来调用函数并验证行为</p>
+</li>
+<li>
+<p>实施足够的代码以使测试通过</p>
+</li>
+</ol>
+<p>如果我们遵循这些简单的步骤，则提前编写测试变得容易得多。在继续处理代码时，您只需在步骤3至5之间重复即可。</p>
+<p>请记住–第一次尝试时就不需要完美，开始就追求完美只会让你过早陷于困境。这也不只是TDD的目的：无论开始做的如何，您可能都需要重做和重构代码的一部分，TDD只是使其更安全，因为您已经进行了一些测试，以验证代码的更改不会导致系统损坏。</p>
+
+
+</div>
+
+<br /><br />
+<hr />
+
+<div class="row clearfix">
+  <div class="large-6 columns">
+	<div class="text-left" style="padding:15px 0px;">
+		
+	        <a href="16616167353639.html"  title="Previous Post: 认识极限编程">&laquo; 认识极限编程</a>
+	    
+	</div>
+  </div>
+  <div class="large-6 columns">
+	<div class="text-right" style="padding:15px 0px;">
+		
+	        <a href="16616166850677.html" 
+	        title="Next Post: 结对编程">结对编程 &raquo;</a>
+	    
+	</div>
+  </div>
+</div>
+
+<div class="row">
+<div style="padding:0px 0.93em;" class="share-comments">
+
+</div>
+</div>
+<script type="text/javascript">
+	$(function(){
+		var currentURL = '16616167090862.html';
+		$('#side-nav a').each(function(){
+			if($(this).attr('href') == currentURL){
+				$(this).parent().addClass('active');
+			}
+		});
+	});
+</script>  
+</div></div>
+
+
+<div class="page-bottom">
+  <div class="row">
+  <hr />
+  <div class="small-9 columns">
+  <p class="copyright">Copyright &copy; 2015
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a>,&nbsp; 
+Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
+  </div>
+  <div class="small-3 columns">
+  <p class="copyright text-right"><a href="#header">TOP</a></p>
+  </div>
+   
+  </div>
+</div>
+
+        </section>
+      </div>
+    </div>
+    
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="asset/prism.js"></script>
+
+
+<style type="text/css">
+figure{margin: 0.4em 0;padding: 0;}
+  figcaption{text-align:center;}
+
+/* PrismJS 1.14.0
+ http://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript */
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+    color: black;
+    background: none;
+    text-shadow: 0 1px white;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+    text-shadow: none;
+    background:#b3d4fc;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+    text-shadow: none;
+    background: #b3d4fc;
+}
+
+@media print {
+    code[class*="language-"],
+    pre[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+    background: #F7F7F7;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+    padding: .1em;
+    border-radius: .3em;
+    white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: slategray;
+}
+
+.token.punctuation {
+    color: #999;
+}
+
+.namespace {
+    opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: #690;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+    color: #9a6e3a;
+    background: hsla(0, 0%, 100%, .5);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+    color: #07a;
+}
+
+.token.function,
+.token.class-name {
+    color: #DD4A68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+    color: #e90;
+}
+
+.token.important,
+.token.bold {
+    font-weight: bold;
+}
+.token.italic {
+    font-style: italic;
+}
+
+.token.entity {
+    cursor: help;
+}
+
+
+pre[class*="language-"].line-numbers {
+    position: relative;
+    padding-left: 3.8em;
+    counter-reset: linenumber;
+}
+
+pre[class*="language-"].line-numbers > code {
+    position: relative;
+    white-space: inherit;
+}
+
+.line-numbers .line-numbers-rows {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    font-size: 100%;
+    left: -3.8em;
+    width: 3em; /* works for line-numbers below 1000 lines */
+    letter-spacing: -1px;
+    border-right: 1px solid #999;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+    .line-numbers-rows > span {
+        pointer-events: none;
+        display: block;
+        counter-increment: linenumber;
+    }
+
+        .line-numbers-rows > span:before {
+            content: counter(linenumber);
+            color: #999;
+            display: block;
+            padding-right: 0.8em;
+            text-align: right;
+        }
+
+
+</style>
+    
+    <script src="asset/js/foundation.min.js"></script>
+    <script src="asset/js/foundation/foundation.offcanvas.js"></script>
+    <script>
+      $(document).foundation();
+
+     
+    </script>
+
+
+  </body>
+</html>
