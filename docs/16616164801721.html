@@ -88,6 +88,8 @@
             <li><a href="%E7%A0%94%E5%8F%91%E6%95%88%E8%83%BD.html">研发效能</a></li>
         
             <li><a href="%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%95%8F%E6%8D%B7.html">大规模敏捷</a></li>
+        
+            <li><a href="IPD.html">IPD</a></li>
          
 
       </ul>
@@ -133,7 +135,7 @@
       <p>敏捷鼓励大家使用用户故事，鼓励团队对用户故事进行了拆分、估算，梳理验收标准，那么进入开发后如何完成一个用户故事的交付呢？ 用户故事开发一般会分为 开发、测试、验收几个过程，下面我们对开发一个故事的一般过程进行介绍。</p>
 <span id="more"></span><!-- more -->
 <p>下面这个图描述了一个用户故事交付的一般过程：<br />
-<img src="http://s.pyrlong.com/ob/20220517093341.png" alt="" /></p>
+<img src="http://a.agileworkshop.cn/ob/20220517093341.png" alt="" /></p>
 <h2><a id="%E6%95%85%E4%BA%8B%E5%BC%80%E5%8D%A1" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>故事开卡</h2>
 <p>所谓开卡是故事准备进入开发的一个仪式，他的主要目的是再次确保产品、开发、测试对要开发故事的内容、实现方案理解的一致性，一般会在早会后进行，是开发、产品、测试同学一起参与的一个15分钟以内的简短仪式，过程如下：</p>
 <ol>
@@ -146,7 +148,7 @@
 <h3><a id="%E4%BD%BF%E7%94%A8tdd" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>使用TDD</h3>
 <p>敏捷提倡测试先行，即开始开发一个功能前先要梳理清楚如何判断这个故事是否完成了，如何通过自动化的方式完成以上判断。这个过程公认的最佳实践就是**测试驱动开发（TDD) ** ,  测试驱动开发又会分为验收测试驱动开发（ATDD）和 单元测试驱动开发（UTDD)。</p>
 <p>下图显示了测试驱动开发（TDD）过程与验收测试驱动(ATDD)开发之间的协作关系。<br />
-<img src="http://s.pyrlong.com/ob/20220518171327.png" alt="" /><br />
+<img src="http://a.agileworkshop.cn/ob/20220518171327.png" alt="" /><br />
 如图所示，验收测试驱动的第四步通过实现必要的代码以修复失败的验收测试，这个修复过程我们可以看做是一系列小的TDD周期，通过不断实现缺失的功能、重构代码直到验收测试通过为止。需要注意上图只是一个示意过程，并不代表ATDD与TDD实际的比例关系。这个过程中每个TDD的周期可能是几分钟或者几十分钟，我们可能在验收测试通过之前花费数小时甚至整天时间都在执行TDD过程。</p>
 <p>当程序员开发一个用户故事时通常会频繁的与客户沟通功能细节，这种情况下往往会发现新的测试场景，这时候我们需要询问客户对此的意见，如果客户认为是必要的我们就应将这些验收测试添加到我们的验收测试列表内，并在系统内增加该场景的验收测试代码。</p>
 <p>最后，终于我们遍历了故事中确定的所有任务和所有测试，并且验收测试也顺利通过了。一般情况下不建议一次将一个故事的所有验收测试都自动化，实际操作中建议根据开发进度逐步完成验收测试的自动化。</p>
@@ -215,7 +217,7 @@
     <div id="sidebar" class="sidebar">
           <div id="site-info" class="site-info">
             
-                <div class="site-a-logo"><img src="https://s.pyrlong.com/mweb/%E6%B4%AA%E5%81%A5.png" /></div>
+                <div class="site-a-logo"><img src="https://a.agileworkshop.cn/mweb/%E6%B4%AA%E5%81%A5.png" /></div>
             
                 <h1>AgileWorkshop</h1>
                 <div class="site-des"></div>
@@ -255,6 +257,8 @@
             <a href="%E7%A0%94%E5%8F%91%E6%95%88%E8%83%BD.html"><strong>研发效能</strong></a>
         
             <a href="%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%95%8F%E6%8D%B7.html"><strong>大规模敏捷</strong></a>
+        
+            <a href="IPD.html"><strong>IPD</strong></a>
          
         </p>
 
@@ -269,6 +273,12 @@
                 <div class="side-content">
                 <ul class="posts-list">
 	      
+		      
+			      <li class="post">
+			        <a href="16843118469711.html">什么是IPD</a>
+			      </li>
+		     
+		  
 		      
 			      <li class="post">
 			        <a href="16662691712060.html">什么是敏捷组织</a>
@@ -290,12 +300,6 @@
 		      
 			      <li class="post">
 			        <a href="16616166850677.html">结对编程</a>
-			      </li>
-		     
-		  
-		      
-			      <li class="post">
-			        <a href="16616166532077.html">客户旅程地图</a>
 			      </li>
 		     
 		  
