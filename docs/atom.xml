@@ -4,38 +4,13 @@
   <title><![CDATA[AgileWorkshop]]></title>
   <link href="https://www.agileworkshop.cn/atom.xml" rel="self"/>
   <link href="https://www.agileworkshop.cn/"/>
-  <updated>2023-06-13T11:04:04+08:00</updated>
+  <updated>2023-06-13T11:04:10+08:00</updated>
   <id>https://www.agileworkshop.cn/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://www.mweb.im/">MWeb</generator>
-  
-  <entry>
-    <title type="html"><![CDATA[什么是IPD]]></title>
-    <link href="https://www.agileworkshop.cn/16843118469711.html"/>
-    <updated>2023-05-17T16:24:06+08:00</updated>
-    <id>https://www.agileworkshop.cn/16843118469711.html</id>
-    <content type="html"><![CDATA[
-<p>IPD即集成产品开发（Integrated Product Development, 简称IPD）是一套产品开发的模式、理念与方法。其思想最早源于美国PRTM公司的PACE（Product And Cycle-time Excellence，产品及生命周期优化法），是一套产品开发模式、理念与方法，它包括五个核心思想：</p>
-<ol>
-<li>将研发视为投资行为，聚焦有价值的市场机会；</li>
-<li>产品创新要基于客户需求和技术创新的双轮驱动；</li>
-<li>产品开发需要跨部门团队和结构化的流程来支撑；</li>
-<li>业务分层及平台架构是实现高质量低成本研发交付的能力基础；</li>
-<li>核心人才梯队和有效的激励机制是IPD高效运作的有力保障；</li>
-</ol>
-<p>狭义IPD：新产品开发</p>
-<p>中观IPD：包括产品开发（狭义IPD）、市场管理及产品规划（marketmanagement，MM）和需求管理（requirementmanagement，RM），3大流程共同构成产品创新管理体系</p>
-<p>宏观IPD：指的是端到端产品管理体系，除中观IPD范围外，宏观IPD还包括技术和平台规划（technology＆ platformplanning，TPP）、技术开发（technology＆platformdevelopment， TPD）、产品生命周期管理（productlife-cyclemanagement，PLM），以及支撑 它们的组织体系和绩效激励体系</p>
-<h1><a id="%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9ipd" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>为什么选择IPD</h1>
-<p>最为我们熟知的运营IPD取得成功的两个公司就是IBM和华为：通过采用IPDIBM扭转了90年代连年亏损的局面，最终实现股价翻了10倍。华为从1998年开始引入IPD管理流程，其在华为不断演进、成长并帮助华为从一个年销售额89亿人民币的企业成长到今天的规模。据说华为的任正非去IBM访问时 IBM 时任副总送给了他一本 《The Power Of PACE》 , 并进行了一天的交流，回国后任正非决定选择IBM、选择IPD。</p>
-<h1><a id="ipd%E8%A7%A3%E5%86%B3%E7%9A%84%E6%98%AF%E4%BB%80%E4%B9%88%E9%97%AE%E9%A2%98" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>IPD解决的是什么问题</h1>
-<p>很遗憾，我也没见过标准的IPD的长相，事实上虽然都叫IPD，但是如今华为的IPD与IBM的IPD也已经相差十万八千里了，</p>
-
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[什么是敏捷组织]]></title>
@@ -1297,6 +1272,194 @@
 <li>故事验收标准和测试用例还是有很大区别的，他可以作为测试用例的输入，但是关注点与测试用例有本质区别，要避免在验收标准中描述一步步的操作细节，甚至直接列举出所有测试场景下的操作过程。</li>
 <li>避免使用特定角色才能看懂的术语，验收标准是拉通业务 产品 开发 测试所有角色对故事完成标准认识的工具，所用语言应该是大家都能理解且没有歧义的。</li>
 </ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[用户故事]]></title>
+    <link href="https://www.agileworkshop.cn/16616161416747.html"/>
+    <updated>2022-08-28T00:02:21+08:00</updated>
+    <id>https://www.agileworkshop.cn/16616161416747.html</id>
+    <content type="html"><![CDATA[
+<p>用户故事几乎是实践敏捷绕不过去的一个概念，也会带来很多疑惑和问题，那什么是用户故事？为什么要使用用户故事？如何使用用户故事呢？<span id="more"></span><!-- more --></p>
+<h2><a id="%E5%8E%86%E5%8F%B2" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>历史</h2>
+<p>最早提出用户故事这一概念是极限编程社区。</p>
+<ul>
+<li>1997年的克莱斯勒C3项目中Kent Beck首次引入了用户故事。</li>
+<li>1999年Kent Beck在其 《<strong>解析极限编程</strong>》一书中首次系统介绍了如何在规划游戏中使用用户故事。</li>
+<li>2001年罗恩·杰弗里斯(Ron Jeffries)提出了用户故事“3C”模型。</li>
+<li>2004年Mike Cohn在他的经典著作《<strong>用户故事与敏捷方法</strong>》一书中系统说明了用户故事的定义、价值及其使用方法，该书被认为是用户故事使用的事实标准，直接推动了用户故事这一工具的广泛应用，我们现在所谈论和使用的大部分关于用户故事的概念和方法主要参考该书的观点。</li>
+</ul>
+<h2><a id="%E4%BB%80%E4%B9%88%E6%98%AF%E7%94%A8%E6%88%B7%E6%95%85%E4%BA%8B" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>什么是用户故事</h2>
+<p>Mike Cohn在其《<strong>用户故事与敏捷方法</strong>》中对用户故事的定义是：</p>
+<blockquote>
+<p>用户故事描述了对用户、系统或软件购买者有价值的功能。</p>
+</blockquote>
+<p>维基百科对用户故事的解释是</p>
+<blockquote>
+<p>用户故事可以看做是产品开发过程中对系统特征的一种非正式的自然语言描述，它们一般从用户的视角描述，通常的表现形式是一张张索引卡片或者便利贴，根据产品类型和业务背景的不同，它们可以由客户、用户、产品经理或研发团队编写。</p>
+</blockquote>
+<h2><a id="%E7%94%A8%E6%88%B7%E6%95%85%E4%BA%8B%E7%9A%84%E7%BB%84%E6%88%90" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>用户故事的组成</h2>
+<p>一般情况下用户故事至少要包括故事标题、故事描述、验收标准（AC），另外还有一些可选信息 比如 关联文档、原型、优先级、估算结果、经办人、关联版本等必要信息。</p>
+<p><img src="http://a.agileworkshop.cn/ob/20220404012046.png" alt="" /></p>
+<h3><a id="%E6%95%85%E4%BA%8B%E6%A0%87%E9%A2%98" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>故事标题</h3>
+<p>标题是包含足够信息又简洁、清晰的一小段文字，可用于指代具体的故事，可以在做计划、讨论过程中作为标识。简洁的标题可以大大提高团队的沟通效率。</p>
+<h3><a id="%E6%95%85%E4%BA%8B%E6%8F%8F%E8%BF%B0" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>故事描述</h3>
+<p>这部分体现的是用户故事的最关键信息，通常会选择遵循一种或多种格式模板。</p>
+<p>最常见的是Connextra的模板，也就是我们常说的用户故事的三段式写法：</p>
+<blockquote>
+<p>As a  <strong>role</strong> I can <strong>capability</strong>, so that <strong>receive benefit</strong></p>
+</blockquote>
+<p><strong>示例</strong></p>
+<blockquote>
+<p>a. 作为人力资源经理，我想创建一个初试测验，以便决定是否要将可能的应聘人员发送给职能经理。</p>
+<p>b. 作为云盘用户，我可以选择不要备份的文件夹，这样我的云盘空间就不会被我不需要保存的东西填满。</p>
+</blockquote>
+<p><em>Mike Cohn认为 “So That&quot; 子句不是必须的,可以根据情况作为选项之一。</em></p>
+<p>Chris Matts 的观点是：要开发一个成功的软件产品 “<strong>寻找可提供的价值</strong>” 应该是第一位的，因此他提出了自己的故事编写模板：</p>
+<blockquote>
+<p>In order to <strong>receive benefit</strong> as a <strong>role</strong>, I can <strong>goal/desire</strong></p>
+</blockquote>
+<p>还有一种是偶尔会使用的5W模板</p>
+<blockquote>
+<p>As  <strong>who ,when ,where</strong>, I want <strong>what</strong> because <strong>why</strong></p>
+</blockquote>
+<h3><a id="%E9%AA%8C%E6%94%B6%E6%A0%87%E5%87%86ac" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>验收标准(AC)</h3>
+<p>Mike Cohn 将验收标准定义为“<strong>它是对于故事必须做到什么才能让客户或管理者接受它的完整说明</strong>”。在实践中我们可以把用户验收标准看做一条条独立的的、可验证的规则清单。它定义了判断一个故事是否完成的最基本要求。</p>
+<h4><a id="%E5%A6%82%E4%BD%95%E6%A2%B3%E7%90%86%E9%AA%8C%E6%94%B6%E6%A0%87%E5%87%86%E5%91%A2%EF%BC%9F" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>如何梳理验收标准呢？</h4>
+<ol>
+<li>
+<p>站在用户验收系统的视角进行梳理：<strong>假设系统已经上线了，系统的用户来验收，它们会关注什么，如何验收</strong> ，围绕用户真实使用场景进行思考和讨论 每个故事发生的场景、触发时机、期望结果。 初期实践可以考虑采用Given When Then的格式来梳理，即：</p>
+<blockquote>
+<p>Given (给定场景/条件下) When （做了什么操作/或满足什么条件) Then （得到什么结果）</p>
+</blockquote>
+</li>
+<li>
+<p>梳理过程中要同时考虑Happy Path、Sad Path 和 Exceptional Path，避免遗漏，</p>
+</li>
+</ol>
+<p>详情请参考 <a href="story-ac.md">故事验收标准</a>。</p>
+<h4><a id="%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%AD%E9%AA%8C%E6%94%B6%E6%A0%87%E5%87%86%E6%98%AF%E5%90%A6%E5%90%88%E6%A0%BC%EF%BC%9F" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>如何判断验收标准是否合格？</h4>
+<ul>
+<li>描述是否简单易懂， 没有歧义。</li>
+<li>是否表达了用户的全部核心意图</li>
+<li>关键场景是否覆盖全面，逻辑是否清晰，是否符合MECE原则</li>
+<li>是否做到不涉及界面、技术实现细节</li>
+<li>能否直接作为验收测试用例</li>
+<li>是否能作为团队自测、用例输出的依据</li>
+</ul>
+<h2><a id="3c%E5%8E%9F%E5%88%99" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>3C原则</h2>
+<p>传统的用户故事是以卡片形式记录的，极限编程创始人之一 Ron Jeffries 对如何得到一个故事的进行了系统说明，他选择了三个以C开头的字母作为代表——卡片（Card）、对话（Conversation）、确认（Confirmation），即著名的用户故事3C模型。该模型很好的概括了一个围绕故事的需求梳理过程：<strong>将一个想法以故事的形式写到卡片上、团队成员围绕故事卡进行讨论、最终得到并记录如何判断该故事已经完成的一致理解。</strong></p>
+<h3><a id="card%E5%8D%A1%E7%89%87" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Card 卡片</h3>
+<p>产生并记录灵感是我们识别用户故事的第一步，通常我们的用户或者产品在有一个新的想法或需求的时候会先将其写到一张卡片上，目的是促成后续一系列围绕它的讨论。</p>
+<p>卡片或便利贴是用户故事最常用的载体，团队通常会用卡片来记录用户故事的相关信息，并且卡片可以方便的挪动、备注、讨论这个故事，每个人都可以用做标记，做批注，更利于讨论和理解。需要注意的是卡片上描述内容需要尽量简洁，使用的词汇要有明确且统一的含义，确保项目成员不会对同一描述有差异性理解。</p>
+<blockquote>
+<p>需要注意的是卡片就像图书馆里的图书索引卡，它的作用是代表一个需求，但不是需求本身。</p>
+</blockquote>
+<h3><a id="conversation%E5%AF%B9%E8%AF%9D%E8%AE%A8%E8%AE%BA" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conversation 对话/讨论</h3>
+<p>团队成员看到产品或客户写了一张新的卡片贴到墙上时往往就会产生好奇或疑惑，他们会试图弄清楚客户或产品想得到什么，这自然而然的会触发一系列围绕该卡片主题的讨论和记录。而这正是使用用户故事的初衷，我们的关注点从来不是那张小卡片本身，而是看到那张卡片时能想起来对话的过程和结论。</p>
+<h3><a id="confirmation%E7%A1%AE%E8%AE%A4" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Confirmation 确认</h3>
+<p>围绕卡片我们进行讨论的最终目的就是得到针对该故事的一系列确定性信息，Confirmation部分就是对讨论过程中形成的各类确定性信息进行记录和确认的过程：满足哪些条件这个故事就算完成了（验收标准）、客户对这个故事的上线时间有何期待、讨论过程中识别了哪些需要解决的风险、依赖、待办事项等等。</p>
+<h2><a id="invest%E5%8E%9F%E5%88%99" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>INVEST原则</h2>
+<p>如何判断一个用户故事的好坏呢，我们一般关注六个方面的特征，分别是：<em>独立性 Independent、可讨论性 Negotiable、对用户或客户有价值 Valuable、可估算 Estimable、小的 Small、可测试 Testable</em>，《探索极限编程》和《重构工作手册》的作者Bill Wake 建议用<strong>INVEST</strong>来代表这六个特性。下面我们分别从这六个方面说明一下一个好的用户故事的特点：</p>
+<h4><a id="independent%E7%8B%AC%E7%AB%8B%E6%80%A7" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Independent 独立性</h4>
+<p>任何故事都是存在于一个更大的系统上下文中的，自然会存在与其它故事的依赖，我们无法完全消除这种依赖，但我们期望能尽可能减少依赖，过于复杂的依赖会对故事的优先级排序、估算、测试造成一系列消极影响。</p>
+<p>对于强依赖的故事一般建议的做法是看是否能改变一下故事的拆分逻辑和视角或者将具有强依赖性的几个故事合并为一个大的、独立的故事。</p>
+<h4><a id="negotiable%E5%8F%AF%E5%8D%8F%E5%95%86%E5%8F%AF%E8%AE%A8%E8%AE%BA" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Negotiable 可协商/可讨论</h4>
+<p>用户故事本身不是需求本身，更不是合约或承诺，它只是需求的简短描述，梳理故事时如果我们已经掌握一些重要的细节则应该包括在故事的注释内，我们并不需要追求在故事中记录所有需求细节，因为故事的主要目的是提醒客户和团队要围绕它展开相关讨论，而需求的更多细节是在讨论中逐步确定的。</p>
+<h4><a id="valuable%E6%9C%89%E4%BB%B7%E5%80%BC" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Valuable 有价值</h4>
+<p>&quot;每个故事必须对用户有价值&quot; 听上去是不是很有道理，但这样理解其实是不全面的，我们需要关注故事可以给用户带来的价值，用户故事一般情况下应该对客户或者用户是具有价值的，保证每个故事都对客户或者用户有价值的最好方法是让客户参与到故事编写的过程来。与此同时我们也应该容忍那些不对用户产生直接价值的故事，很多项目都会包括大量此类故事，比如技术或者架构方面的故事。</p>
+<h4><a id="estimable%E5%8F%AF%E4%BC%B0%E7%AE%97" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Estimable 可估算</h4>
+<p>对于开发人员来说，能基于掌握的信息对故事的大小或者工作量进行估算是非常重要的，这对于我们配置资源，制定计划都极其重要，所以故事需要是可以被估算的。如果一个故事无法估算则需要去分析可能原因并加以解决，常见的导致故事无法被估算的原因包括：</p>
+<ol>
+<li>是否开发人员缺少相关领域知识，是否围绕故事进行了充分的讨论。</li>
+<li>是否因为开发人员不具备某项技术，这时候可以先安排一个探针试验，获取到足够可以估算这个故事的知识。</li>
+<li>故事过大，这时候需要考虑对故事进行进一步拆分。</li>
+</ol>
+<h4><a id="small%E8%B6%B3%E5%A4%9F%E5%B0%8F" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Small 足够小</h4>
+<p>在梳理故事过程中会出现各种规模的故事，故事的大小非常重要，过大或过小的故事都会对制定计划造成困扰。因此当故事过大或过小时候我们都需要注意进行相应的调整。</p>
+<p>当一个故事过大时候，我们需要尝试将故事拆分为多个大小合理的故事，当一个故事过小时候，我们需要考虑对相关联和类似的故事进行合并。</p>
+<p><em>关于如何把故事拆分到合理粒度的方法请阅读 <a href="story-create.md">用户故事拆分</a></em></p>
+<h4><a id="testable%E5%8F%AF%E6%B5%8B%E8%AF%95" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Testable 可测试</h4>
+<p>故事必须是可以测试的，如果不能测试开发人员怎么知道他们是否已经完成了代码呢？</p>
+<p>在实际实践中经常会听到测试或产品反馈有些故事是不能独立测试，甚至完全不能测试的情况。</p>
+<p>造成这种情况的原因通常有如下几个方面：</p>
+<ol>
+<li>技术性故事\非功能性需求</li>
+</ol>
+<p>这类需求往往不是与用户需求直接相关的，经常是涉及软件的性能、安全性、稳定性等，对于这类故事的测试首选应该是通过自动化手段进行测试。</p>
+<ol start="3">
+<li>混淆故事验收测试与集成测试</li>
+</ol>
+<p>一个故事往往是处于一个大的工作流程或者上下文中的，在很多产品和测试眼中，如果其上下游未完成开发，测试单独故事的价值是有限的，他们更倾向于一个完整的流程完成交付后再进行测试。这是因为他们混淆了两类不同的测试，全流程的测试是集成测试的目标，而对故事的测试是在假设故事涉及的上下游都正确的情况下对其进行的测试。以飞机制造为例，对故事的测试相当于对飞机的各个零件的质量检测，确保每个零件都按其标准被正确制造了。对流程的测试相当于飞机的试飞，检查的是零件组装到一起是否能按预期一样正常工作。</p>
+<ol start="3">
+<li>故事拆分方式不合理</li>
+</ol>
+<p>这也是一种常见的造成故事不能独立测试的情况，故事交付依赖很多其它故事的交付，比如 故事拆分时候是按照前端、移动端、服务端的方式进行的，在服务端部署之前，前端和移动端故事根本无法单独测试。</p>
+<p>这种情况本质是故事未正确拆分导致的，需要改进故事拆分方式，从业务视角拆分，将故事涉及的前后端工作揉入一个故事内。</p>
+<p><em>关于如何把故事拆分到合理粒度的方法请阅读 <a href="story-create.md">用户故事拆分</a></em></p>
+<h2><a id="%E4%B8%80%E4%BA%9B%E5%BA%94%E7%94%A8%E6%8A%80%E5%B7%A7" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>一些应用技巧</h2>
+<h3><a id="%E8%81%9A%E7%84%A6%E7%9B%AE%E6%A0%87%E7%94%A8%E6%88%B7" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>聚焦目标用户</h3>
+<p>在一个大型系统内，往往有许多用户角色，在梳理用户故事时候往往让我们无从下手，如果能聚焦到一个具体的用户角色、甚至一个具体的人上，就会比较容易下手，从一个具体的用户的视角去思考往往可以让思考变得更清晰，故事的可读性也是更强的。我们看一下如下两种写法：</p>
+<blockquote>
+<p>用户可以登录系统调看当事人的视频档案</p>
+<p>负责案件侦破的刑警可以调看自己负责案件的当事人的视频档案</p>
+</blockquote>
+<p>看到第一种写法会有哪些疑问呢？ 能登录的警察就可以看吗？可以看所有当事人的视频吗？<br />
+第二种写法就聚焦到了负责刑事侦破的刑警，并且只能看他负责的案件的当事人的视频。</p>
+<h3><a id="%E5%88%87%E8%9B%8B%E7%B3%95%E5%BC%8F%E6%95%85%E4%BA%8B%E6%8B%86%E5%88%86" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>切蛋糕式故事拆分</h3>
+<p>对于一个较大的故事我们有很多方法可以将其拆分为较小的多个故事，通常如果开发人员去拆往往喜欢依照技术边界进行拆分：前端、后端、数据服务等，如：</p>
+<blockquote>
+<p>求职者可以填写自己的简历信息<br />
+求职者提交的简历信息后数据存储到云端数据库</p>
+</blockquote>
+<p>这种情况下往往需要几个故事都完成时候才能提供一个完整功能，产生价值，并且不利于对故事进行独立测试和验证。</p>
+<p>理想的故事拆分方式是每个故事都能提供基本完整的功能，Bill Wake将其比喻为 ”切蛋糕“，在编写故事时候像切一块蛋糕一样，每个故事都覆盖蛋糕的每一层。</p>
+<h3><a id="%E4%BD%BF%E7%94%A8%E7%BA%A6%E6%9D%9F%E5%8D%A1" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>使用约束卡</h3>
+<p>这是一种很有用的实践，在故事开发过程中经常有一些大家都要遵守的约定和要求，比如对性能、稳定性的要求，可以通过设置一系列 特殊的“卡片”来记录和管理。</p>
+<p>下面是一些常见约束卡示例：</p>
+<blockquote>
+<p>系统单个界面响应时间不超过0.5s<br />
+系统必须支持不低于100个并非访问<br />
+系统需要考虑国际化支持<br />
+系统需要同时支持在Linux和Windows运行<br />
+...</p>
+</blockquote>
+<p>约束卡一般不需要单独估算，但是他们会影响一系列故事卡的实现思路和验收标准，其中相当一部分约束会通过自动化测试体系来支持。</p>
+<h3><a id="%E7%BC%96%E5%86%99%E5%B0%81%E9%97%AD%E7%9A%84%E6%95%85%E4%BA%8B" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>编写封闭的故事</h3>
+<p>封闭性故事的概念来源于Soren Lauesen在他的需求技术汇编中引入的任务闭包性想法，其核心思想是希望用户使用一个故事后能让他觉得完成了某个任务，给用户带来一定的成就感。</p>
+<h3><a id="%E5%BB%B6%E8%BF%9F%E8%80%83%E8%99%91%E7%BB%86%E8%8A%82" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>延迟考虑细节</h3>
+<p>这是一个非常重要但是非常难做到的要求，我见过的绝大多数敏捷团队都很难做到。很多故事都存在着将需求和方案混在一起的问题，也就是说在梳理故事时候我们会更多的在思考方案而忽略需求的目的。最常见的情况就是界面，很多团队梳理故事是需要有原型才能输出的，他们的故事只是把原型进行了拆解，失去了使用用户故事本来该有的意义。</p>
+<h3><a id="%E8%AE%A9%E5%AE%A2%E6%88%B7%E5%8F%82%E4%B8%8E%E7%BC%96%E5%86%99" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>让客户参与编写</h3>
+<p>条件允许情况下最好能把客户拉入到梳理用户故事的过程中，用户故事的初衷是让客户或用户通过讲故事的方式告诉团队他的需求和目标。而且客户参与故事梳理也会让客户理解每个故事的，在排列故事优先级、验收故事过程中做到更科学，更有利于让用户融入产品开发过程。</p>
+<h2><a id="%E7%94%A8%E6%88%B7%E6%95%85%E4%BA%8B%E7%9A%84%E6%84%8F%E4%B9%89" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>用户故事的意义</h2>
+<p>软件需求管理从某种意义上来说是一个沟通问题，要解决的是客户、用户、产品、开发、测试等不同角色之间如何沟通的问题，是对做什么？如何做？如何判断是否成功等一系列问题达成统一认识的过程。</p>
+<p>传统管理方式解决这个过程的思路是期望通过详尽的文档+细致的流程来达到目的，其沟通的核心是围绕“文档”，但是基于文档的沟通方式存在着诸多弊端，如：文档编写、评审、维护周期长、变更追踪困难，成本高；容易造成团队面对面沟通意愿和主动性降低，无法保证信息传递效率和质量；文档编写、评审、传递过程变成了责任的传递。</p>
+<p>敏捷实践者则希望通过促成更多的 “面对面沟通” 来提高沟通效率和准确性，用户故事就是其中一种最重要的载体。</p>
+<p>用户故事可以看做一种边界对象，它是以用户视角通过自然语言描述的，通过促成有意义的交流来对齐业务团队与技术团队对需求的理解，所以，我们通常会把用户故事看做是一种用于建立共识的沟通工具。</p>
+<p><img src="http://a.agileworkshop.cn/ob/20220403211634.png" alt="" /></p>
+<p>越来越多的实践表明使用用户故事作为沟通工具可以带来一系列优势：</p>
+<ol>
+<li>促进用面对面的口头沟通代替基于文档的信息流转，提高沟通效率。</li>
+<li>用户故事相比于文档更精炼、更易读、更容易理解。</li>
+<li>用户故事的粒度更适合在冲刺粒度内进行计划与跟踪。</li>
+<li>用户故事更适合迭代开发，梳理出前一两个冲刺的故事就可以开始冲刺了。</li>
+<li>用户故事鼓励细节延迟确认，很多细节可以在开始开发时候再进行讨论和确认。</li>
+<li>用户故事鼓励客户、用户、研发团队都参与到功能的设计过程。</li>
+<li>促进隐性知识传播，提高团队协作水平。</li>
+</ol>
+<p>::: tip<br />
+需要承认的是目前并没有数据表明使用用户故事会提升团队生产率或者软件成功率。但是从常理上看通过用户视角思考，进行有意义的沟通与记录会对产品成功产生正向影响是毋庸置疑的。<br />
+:::</p>
+<blockquote>
+</blockquote>
+<h2><a id="%E9%98%85%E8%AF%BB%E6%9B%B4%E5%A4%9A" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>阅读更多</h2>
+<h4><a id="%E7%94%A8%E6%88%B7%E6%95%85%E4%BA%8B%E5%9C%B0%E5%9B%BEstory-mapping-md" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="story-mapping.md">用户故事地图</a></h4>
+<h4><a id="%E7%94%A8%E6%88%B7%E6%95%85%E4%BA%8B%E6%8B%86%E5%88%86story-create-md" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="story-create.md">用户故事拆分</a></h4>
+<h4><a id="%E7%90%86%E8%A7%A3%E6%95%85%E4%BA%8B%E7%82%B9story-point-md" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="story-point.md">理解故事点</a></h4>
+<h4><a id="%E7%94%A8%E6%88%B7%E6%95%85%E4%BA%8B%E5%B8%B8%E7%94%A8%E4%BC%B0%E7%AE%97%E6%96%B9%E6%B3%95story-estimate-md" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="story-estimate.md">用户故事常用估算方法</a></h4>
+<h4><a id="%E7%94%A8%E6%88%B7%E6%97%85%E7%A8%8B%E5%9C%B0%E5%9B%BEuser-journey-md" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="user-journey.md">用户旅程地图</a></h4>
 
 ]]></content>
   </entry>
